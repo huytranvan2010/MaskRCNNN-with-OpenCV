@@ -9,6 +9,7 @@ Có một số algorithms để thực hiện segmentation như:
 Trong các bài toán object detection chúng ta nhận được bounding box xung quanh vật thể và class của vật thể. Tuy nhiên bounding box nhận được không cho chúng ta biết:
 - Pixels nào thuộc về vật thể
 - Pixels nào thuộc về background
+
 Để có thể tách riêng các pixels thuộc về một object chúng ta đi xây dựng bài toán segmentation (phân đoạn ảnh). Bài toán segmentation có 2 dạng:
 - Instance segmentation: phân đoạn riêng rẽ từng vật thể
 - Semantic segmentation: phân đoạn các vật thể theo nhóm như người, ô tô... (không phân biệt các objects cảu cùng class). Cái này hay được sử dụng trong xe tự hành
