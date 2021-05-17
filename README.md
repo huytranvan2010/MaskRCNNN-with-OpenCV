@@ -1,9 +1,9 @@
 # Image Segmentattion
 Có một số algorithms để thực hiện segmentation như:
-* Region-based Segmentation: phân chia các objects thành các vùng khác nhau dựa trên một số ngưỡng (số ngưỡng tùy chọn)
-* Edge Detection Segmentation: dựa trên tính không liên tục của features để phát hiện các viền, do đó có thể xác định được ranh giới của các vật thể (hay dùng các filter như Sobel...)
-* Segmentation based on clustering: chia các pixel thành các nhóm khác nhau (có thể sử dụng phương pháp K-means để phân cụm)
-* Mask R-CNN: trả lại cho chúng ta 3 outputs cho mỗi object trong ảnh: class, bounding box và object mask
+* **Region-based Segmentation:** phân chia các objects thành các vùng khác nhau dựa trên một số ngưỡng (số ngưỡng tùy chọn)
+* **Edge Detection Segmentation:** dựa trên tính không liên tục của features để phát hiện các viền, do đó có thể xác định được ranh giới của các vật thể (hay dùng các filter như Sobel...)
+* **Segmentation based on clustering:** chia các pixel thành các nhóm khác nhau (có thể sử dụng phương pháp K-means để phân cụm)
+* **Mask R-CNN:** trả lại cho chúng ta 3 outputs cho mỗi object trong ảnh: class, bounding box và object mask
 
 # MaskRCNNN-with-OpenCV
 Trong các bài toán object detection chúng ta nhận được bounding box xung quanh vật thể và class của vật thể. Tuy nhiên bounding box nhận được không cho chúng ta biết:
