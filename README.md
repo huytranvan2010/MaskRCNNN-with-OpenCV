@@ -19,8 +19,8 @@ Trong các bài toán object detection chúng ta nhận được bounding box xu
 Kiến trúc Mask R-CNN là một ví dụ của `instance segmentation` algorithm.
 
 Mask R-CNN được xây dựng dựa trên Faster R-CNN với 2 điểm mới như sau:
-- Thay thể ROI pooling module bằng ROI Align module chính xác hơn
-- Chèn them một nhánh ra (2 CONV layers) từ ROI Align để tạo ra `mask`
+- Thay thế ROI pooling module bằng ROI Align module chính xác hơn (scale lại vị trí của bounding box trên ảnh)
+- Chèn thêm một nhánh ra (2 CONV layers) từ ROI Align để tạo ra `mask`
 
 ![image2](https://pyimagesearch.com/wp-content/uploads/2018/11/mask_rcnn_arch.png)
 
