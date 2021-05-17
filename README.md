@@ -13,6 +13,7 @@ Trong các bài toán object detection chúng ta nhận được bounding box xu
 Để có thể tách riêng các pixels thuộc về một object chúng ta đi xây dựng bài toán segmentation (phân đoạn ảnh). Bài toán segmentation có 2 dạng:
 - Instance segmentation: phân đoạn riêng rẽ từng vật thể
 - Semantic segmentation: phân đoạn các vật thể theo nhóm như người, ô tô... (không phân biệt các objects cảu cùng class). Cái này hay được sử dụng trong xe tự hành
+
 ![images](https://pyimagesearch.com/wp-content/uploads/2018/11/mask_rcnn_segmentation_types.jpg)
 
 Kiến trúc Mask R-CNN là một ví dụ của `instance segmentation` algorithm.
